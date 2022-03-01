@@ -13,12 +13,12 @@ public class App {
     }
     public static void main(String[] args) throws IOException, TimeoutException {
 //        showResult(); // Call this function to show Result;
-//if (args.length>2) {
-//
-//        Bitmap TEST = new Bitmap(args[0] ,args[1], args[2], 90);
-//
-//
-//}
+
+
+if (args.length>2) {
+
+        Bitmap TEST = new Bitmap(args[0] ,args[1], args[2]);
+}
 
 }
 

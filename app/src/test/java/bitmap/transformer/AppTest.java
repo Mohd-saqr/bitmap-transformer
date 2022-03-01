@@ -52,7 +52,7 @@ assertEquals(1,TEST.BlackAndWhite());
         String DefaultOutPutPath = s1.replace("file:/C", "C").toString().replace("build/classes/java/main/", "src/main/resources");
 
         Bitmap TEST = new Bitmap("/mnt/c/Users/M.2070/MyWork/bitmap-transformer/app/src/main/resources/image1.bmp", "/mnt/c/Users/M.2070/MyWork/bitmap-transformer/app/src/main/resources/" +"Rotate.bmp", "Rotate", 90);
-        assertEquals(1,TEST.Rotate(90));
+        assertEquals(1,TEST.Rotate(180));
 
     }
 }
